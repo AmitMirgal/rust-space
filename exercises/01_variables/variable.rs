@@ -7,7 +7,7 @@ fn main() {
     const NUMBER: u8 = 200;
     println!("variables value are {}, {}", x, NUMBER);
 
-    // use mut keyword to change the value
+    // mut keyword is used to declare mutable variables
     let mut mutate_value = 2;
     println!("variables value are {}", mutate_value);
 
