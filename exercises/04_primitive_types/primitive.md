@@ -20,13 +20,11 @@
 | `bool`         | `true`  | 1            | Boolean (either `true` or `false`) |
 | `str`          | `"hello"`| -           | String slice (UTF-8 encoded) |
 
-```
-Rust is a statically-typed language, and its type system helps ensure memory safety without sacrificing performance. The usize and isize types depend on the platform's architecture and are used for indexing and representing sizes of data structures. The str type represents a string slice, which is a reference to a sequence of UTF-8 encoded bytes and is often used in conjunction with the String type for string manipulation.
-```
 
-----------------------------------------------------------------------------
+Rust is a statically-typed language, and its type system helps ensure memory safety without sacrificing performance. The usize and isize types depend on the platform's architecture and are used for indexing and representing sizes of data structures. The str type represents a string slice, which is a reference to a sequence of UTF-8 encoded bytes and is often used in conjunction with the String type for string manipulation.
+
+
 ****************************************************************************
-----------------------------------------------------------------------------
 
 ## Compound types in Rust:
 
@@ -42,6 +40,5 @@ Rust is a statically-typed language, and its type system helps ensure memory saf
 | Result        | `let result: Result<i32, &str> = Ok(42);` | - | Represents a computation that can result in either success (`Ok(value)`) or failure (`Err(reason)`) |
 | Enum          | `enum Shape { Circle(f64), Rectangle(f64, f64) }`<br>`let circle = Shape::Circle(3.14);` | - | Defines a type with multiple possible values (variants) |
 
-```
+
 These are some common compound types in Rust. Arrays have a fixed size, tuples can have elements of different types, slices are references to a portion of an array, and strings are dynamically allocated and growable. Vectors (`Vec`) are similar to arrays but can change in size, and `HashMap` is a collection of key-value pairs. `Option` and `Result` are used for handling optional and error-prone situations, respectively. Enums allow you to define your own types with multiple possible values.
-```
