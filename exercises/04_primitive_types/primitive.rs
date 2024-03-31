@@ -11,4 +11,5 @@ fn main() {
     // array is a collection of same type of data
     let a = [1, 2, 3, 4, 5];
     println!("array value is => {:?}", a);
+    println!("array value at index 0 is => {:?}", a[0]);
 }
